@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align:center;
+}
+.book-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.BookList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.booksRead{
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+}
+.unReadBooks{
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+}
+.readBooks{
+    display: flex;
+}
+
+.unRead{
+    display:flex;
+}
+
+.book{
+    border:1px;
+    border-style:dotted;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bookCard{
+    background-color: brown;
+    color:white;
+    border: 1px;
+    border-style:dotted;
+    border-radius: 10%;
+    /* width: 20%; */
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+}
+}

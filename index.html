@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "library">
+        <h1>My Library</h1>
+        <div class = "Container">
+            <div class = "book-container">
+                <ul class = "BookList">
+                    <div class = "booksRead">
+                    <h1>Books Read</h1>
+                    <ul class = "readBooks">
+                    </ul>
+                    </div>
+                    <div class = "unReadBooks">
+                    <h1>Unread Books</h1>
+                    <ul class ="unRead">
+                    </ul>
+                    </div>  
+                </ul>
+            </div>
+        </div>
+       <form class = "addBook">
+           <label for = "Title">Title</label>
+           <input type = "text" id = "title" fname = "title"> <br>
+           <label for = "Title">Author</label>
+           <input type = "text" id = "author" fname = "author"> <br>
+           <label for = "Title">Pages</label>
+           <input type = "text" id = "pages" fname = "pages"> <br> 
+           <label for = "Read">Read</label> 
+           <input type="checkbox" id="isRead" name="isRead" value="isRead"> <br>
+            <input class = "submitButton" type = "button" value = "submit">
+       </form> 
+    </div>
+</body>
+<script src = "script.js"></script>
+
+</html>
